@@ -1,0 +1,6 @@
+[server]
+maxUploadSize = 4000
+address = "localhost"   # only this computer can open the app (the videos show real people)
+
+[browser]
+gatherUsageStats = false   # also stops the first-run e-mail prompt

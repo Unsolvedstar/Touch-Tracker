@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# match footage, analyses and training crops show real people: never publish them
+videos/
+footage/
+runs/
+runs_train/
+ballkit/
+*.mp4
+*.mov
+*.avi
+*.mkv
+# downloaded again by setup.bat
+yolov8*.pt
+walkthrough/
+# local only: old experiment with personal paths, unused or unscrubbed model copies
+ball_experiment.py
+models/ball_v1.pt
+models/ball_original.pt
